@@ -1,0 +1,92 @@
+{
+  "models": [
+    {
+      "id": "gemma3-1b-it",
+      "name": "Gemma 3 1B IT",
+      "description": "A variant of google/Gemma-3-1B-IT with 4-bit quantization ready for deployment on Android using the MediaPipe LLM Inference API",
+      "size": "557 MB",
+      "minRamGB": 2,
+      "maxTokens": 4096,
+      "maxTokensByRam": { "low": 2048, "normal": 4096, "high": 4096 },
+      "downloadUrl": "https://github.com/Fabrizio1990/local_models/releases/download/v1.0.0-models/gemma3-1b-it-int4.litertlm",
+      "fileName": "gemma3-1b-it-int4.litertlm",
+      "format": "litertlm"
+    },
+    {
+      "id": "gemma-3n-e2b-it",
+      "name": "Gemma 3n E2B IT",
+      "description": "Preview version of Gemma 3n E2B ready for deployment on Android. Supports text, vision, and audio input with 4096 context length.",
+      "size": "3.2 GB",
+      "minRamGB": 6,
+      "maxTokens": 4096,
+      "maxTokensByRam": { "low": 2048, "normal": 4096, "high": 8192 },
+      "downloadUrl": "https://github.com/Fabrizio1990/local_models/releases/download/v1.0.0-models/gemma-3n-E2B-it-int4.part1.litertlm",
+      "fileName": "gemma-3n-E2B-it-int4.litertlm",
+      "isMultiPart": true,
+      "parts": [
+        "gemma-3n-E2B-it-int4.part1.litertlm",
+        "gemma-3n-E2B-it-int4.part2.litertlm"
+      ],
+      "format": "litertlm"
+    },
+    {
+      "id": "qwen3.5-0.8b-q4km",
+      "name": "Qwen 3.5 0.8B",
+      "description": "Qwen 3.5 0.8B with Q4_K_M quantization for on-device inference via llama.cpp",
+      "size": "533 MB",
+      "minRamGB": 2,
+      "maxTokens": 4096,
+      "maxTokensByRam": { "low": 4096, "normal": 8192, "high": 16384 },
+      "downloadUrl": "https://github.com/Fabrizio1990/local_models/releases/download/v2.0.0-models/Qwen3.5-0.8B-Q4_K_M.gguf",
+      "fileName": "Qwen3.5-0.8B-Q4_K_M.gguf",
+      "format": "gguf"
+    },
+    {
+      "id": "qwen3.5-2b-q4km",
+      "name": "Qwen 3.5 2B",
+      "description": "Qwen 3.5 2B with Q4_K_M quantization for on-device inference via llama.cpp",
+      "size": "1.28 GB",
+      "minRamGB": 4,
+      "maxTokens": 4096,
+      "maxTokensByRam": { "low": 2048, "normal": 4096, "high": 8192 },
+      "downloadUrl": "https://github.com/Fabrizio1990/local_models/releases/download/v2.0.0-models/Qwen3.5-2B-Q4_K_M.gguf",
+      "fileName": "Qwen3.5-2B-Q4_K_M.gguf",
+      "format": "gguf"
+    },
+    {
+      "id": "qwen3.5-4b-q4km",
+      "name": "Qwen 3.5 4B",
+      "description": "Qwen 3.5 4B with Q4_K_M quantization for on-device inference via llama.cpp",
+      "size": "2.74 GB",
+      "minRamGB": 6,
+      "maxTokens": 4096,
+      "maxTokensByRam": { "low": 2048, "normal": 4096, "high": 6144 },
+      "downloadUrl": "https://github.com/Fabrizio1990/local_models/releases/download/v2.0.0-models/Qwen3.5-4B-Q4_K_M.part1.gguf",
+      "fileName": "Qwen3.5-4B-Q4_K_M.gguf",
+      "isMultiPart": true,
+      "parts": [
+        "Qwen3.5-4B-Q4_K_M.part1.gguf",
+        "Qwen3.5-4B-Q4_K_M.part2.gguf"
+      ],
+      "format": "gguf"
+    },
+    {
+      "id": "qwen3.5-9b-q4km",
+      "name": "Qwen 3.5 9B",
+      "description": "Qwen 3.5 9B with Q4_K_M quantization for on-device inference via llama.cpp",
+      "size": "5.68 GB",
+      "minRamGB": 10,
+      "maxTokens": 4096,
+      "maxTokensByRam": { "low": 2048, "normal": 2048, "high": 4096 },
+      "downloadUrl": "https://github.com/Fabrizio1990/local_models/releases/download/v2.0.0-models/Qwen3.5-9B-Q4_K_M.part1.gguf",
+      "fileName": "Qwen3.5-9B-Q4_K_M.gguf",
+      "isMultiPart": true,
+      "parts": [
+        "Qwen3.5-9B-Q4_K_M.part1.gguf",
+        "Qwen3.5-9B-Q4_K_M.part2.gguf",
+        "Qwen3.5-9B-Q4_K_M.part3.gguf"
+      ],
+      "format": "gguf"
+    }
+  ]
+}

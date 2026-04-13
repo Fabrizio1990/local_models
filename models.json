@@ -114,6 +114,80 @@
       "visionProjectorFileName": "mmproj-google_gemma-4-E4B-it-f16.gguf",
       "visionProjectorSize": 990372352,
       "visionProjectorDownloadUrl": "https://github.com/Fabrizio1990/local_models/releases/download/v3.0.0-models/mmproj-google_gemma-4-E4B-it-f16.gguf"
+    },
+    {
+      "id": "qwen3.5-2b-q4km",
+      "name": "Qwen 3.5 2B",
+      "description": "Qwen 3.5 2B with Q4_K_M quantization for on-device inference via llama.cpp",
+      "size": "1.28 GB",
+      "minRamGB": 4,
+      "maxTokens": 4096,
+      "maxTokensByRam": {
+        "low": 2048,
+        "normal": 4096,
+        "high": 8192
+      },
+      "downloadUrl": "https://github.com/Fabrizio1990/local_models/releases/download/v2.0.0-models/Qwen3.5-2B-Q4_K_M.gguf",
+      "fileName": "Qwen3.5-2B-Q4_K_M.gguf",
+      "format": "gguf",
+      "supportsVision": true,
+      "supportsThinking": true,
+      "visionProjectorFileName": "mmproj-qwen3.5-2b-F16.gguf",
+      "visionProjectorSize": 668227264,
+      "visionProjectorDownloadUrl": "https://github.com/Fabrizio1990/local_models/releases/download/v2.0.0-models/mmproj-qwen3.5-2b-F16.gguf"
+    },
+    {
+      "id": "qwen3.5-4b-q4km",
+      "name": "Qwen 3.5 4B",
+      "description": "Qwen 3.5 4B with Q4_K_M quantization for on-device inference via llama.cpp",
+      "size": "2.74 GB",
+      "minRamGB": 6,
+      "maxTokens": 4096,
+      "maxTokensByRam": {
+        "low": 2048,
+        "normal": 4096,
+        "high": 6144
+      },
+      "downloadUrl": "https://github.com/Fabrizio1990/local_models/releases/download/v2.0.0-models/Qwen3.5-4B-Q4_K_M.part1.gguf",
+      "fileName": "Qwen3.5-4B-Q4_K_M.gguf",
+      "isMultiPart": true,
+      "parts": [
+        "Qwen3.5-4B-Q4_K_M.part1.gguf",
+        "Qwen3.5-4B-Q4_K_M.part2.gguf"
+      ],
+      "format": "gguf",
+      "supportsVision": true,
+      "supportsThinking": true,
+      "visionProjectorFileName": "mmproj-qwen3.5-4b-F16.gguf",
+      "visionProjectorSize": 672423616,
+      "visionProjectorDownloadUrl": "https://github.com/Fabrizio1990/local_models/releases/download/v2.0.0-models/mmproj-qwen3.5-4b-F16.gguf"
+    },
+    {
+      "id": "qwen3.5-9b-q4km",
+      "name": "Qwen 3.5 9B",
+      "description": "Qwen 3.5 9B with Q4_K_M quantization for on-device inference via llama.cpp",
+      "size": "5.68 GB",
+      "minRamGB": 10,
+      "maxTokens": 4096,
+      "maxTokensByRam": {
+        "low": 2048,
+        "normal": 2048,
+        "high": 4096
+      },
+      "downloadUrl": "https://github.com/Fabrizio1990/local_models/releases/download/v2.0.0-models/Qwen3.5-9B-Q4_K_M.part1.gguf",
+      "fileName": "Qwen3.5-9B-Q4_K_M.gguf",
+      "isMultiPart": true,
+      "parts": [
+        "Qwen3.5-9B-Q4_K_M.part1.gguf",
+        "Qwen3.5-9B-Q4_K_M.part2.gguf",
+        "Qwen3.5-9B-Q4_K_M.part3.gguf"
+      ],
+      "format": "gguf",
+      "supportsVision": true,
+      "supportsThinking": true,
+      "visionProjectorFileName": "mmproj-qwen3.5-9b-F16.gguf",
+      "visionProjectorSize": 918166080,
+      "visionProjectorDownloadUrl": "https://github.com/Fabrizio1990/local_models/releases/download/v2.0.0-models/mmproj-qwen3.5-9b-F16.gguf"
     }
   ]
 }

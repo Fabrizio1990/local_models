@@ -66,8 +66,8 @@
       "id": "gemma-4-e2b-it-q4km",
       "name": "Gemma 4 E2B",
       "description": "Gemma 4 E2B with Q4_K_M quantization for on-device inference via llama.cpp",
-      "size": "1.8 GB",
-      "minRamGB": 3,
+      "size": "3.2 GB",
+      "minRamGB": 4,
       "maxTokens": 4096,
       "maxTokensByRam": {
         "low": 2048,
@@ -85,15 +85,15 @@
       "supportsVision": true,
       "supportsThinking": true,
       "visionProjectorFileName": "mmproj-google_gemma-4-E2B-it-f16.gguf",
-      "visionProjectorSize": 76595552,
+      "visionProjectorSize": 985653760,
       "visionProjectorDownloadUrl": "https://github.com/Fabrizio1990/local_models/releases/download/v3.0.0-models/mmproj-google_gemma-4-E2B-it-f16.gguf"
     },
     {
       "id": "gemma-4-e4b-it-q4km",
       "name": "Gemma 4 E4B",
       "description": "Gemma 4 E4B with Q4_K_M quantization for on-device inference via llama.cpp",
-      "size": "3.3 GB",
-      "minRamGB": 4,
+      "size": "5.4 GB",
+      "minRamGB": 8,
       "maxTokens": 4096,
       "maxTokensByRam": {
         "low": 2048,
@@ -106,12 +106,13 @@
       "isMultiPart": true,
       "parts": [
         "google_gemma-4-E4B-it-Q4_K_M.part1.gguf",
-        "google_gemma-4-E4B-it-Q4_K_M.part2.gguf"
+        "google_gemma-4-E4B-it-Q4_K_M.part2.gguf",
+        "google_gemma-4-E4B-it-Q4_K_M.part3.gguf"
       ],
       "supportsVision": true,
       "supportsThinking": true,
       "visionProjectorFileName": "mmproj-google_gemma-4-E4B-it-f16.gguf",
-      "visionProjectorSize": 76595552,
+      "visionProjectorSize": 990372352,
       "visionProjectorDownloadUrl": "https://github.com/Fabrizio1990/local_models/releases/download/v3.0.0-models/mmproj-google_gemma-4-E4B-it-f16.gguf"
     }
   ]

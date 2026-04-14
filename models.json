@@ -65,7 +65,7 @@
     {
       "id": "gemma-4-e2b-it-q4km",
       "name": "Gemma 4 E2B",
-      "description": "Gemma 4 E2B with Q4_K_M quantization for on-device inference via llama.cpp",
+      "description": "Gemma 4 E2B optimized for MediaPipe (LiteRT) on-device inference. High-performance reasoning on mobile.",
       "size": "3.2 GB",
       "minRamGB": 4,
       "maxTokens": 4096,
@@ -74,13 +74,13 @@
         "normal": 4096,
         "high": 8192
       },
-      "downloadUrl": "https://github.com/Fabrizio1990/local_models/releases/download/v3.0.0-models/google_gemma-4-E2B-it-Q4_K_M.part1.gguf",
-      "fileName": "google_gemma-4-E2B-it-Q4_K_M.gguf",
-      "format": "gguf",
+      "downloadUrl": "https://github.com/Fabrizio1990/local_models/releases/download/v3.1.0-models/gemma-4-E2B-it-int4.part1.litertlm",
+      "fileName": "gemma-4-E2B-it-int4.litertlm",
+      "format": "litertlm",
       "isMultiPart": true,
       "parts": [
-        "google_gemma-4-E2B-it-Q4_K_M.part1.gguf",
-        "google_gemma-4-E2B-it-Q4_K_M.part2.gguf"
+        "gemma-4-E2B-it-int4.part1.litertlm",
+        "gemma-4-E2B-it-int4.part2.litertlm"
       ],
       "supportsVision": true,
       "supportsThinking": true,
@@ -91,7 +91,7 @@
     {
       "id": "gemma-4-e4b-it-q4km",
       "name": "Gemma 4 E4B",
-      "description": "Gemma 4 E4B with Q4_K_M quantization for on-device inference via llama.cpp",
+      "description": "Gemma 4 E4B optimized for MediaPipe (LiteRT) on-device inference. Superior reasoning for flagship devices.",
       "size": "5.4 GB",
       "minRamGB": 8,
       "maxTokens": 4096,
@@ -100,14 +100,13 @@
         "normal": 4096,
         "high": 6144
       },
-      "downloadUrl": "https://github.com/Fabrizio1990/local_models/releases/download/v3.0.0-models/google_gemma-4-E4B-it-Q4_K_M.part1.gguf",
-      "fileName": "google_gemma-4-E4B-it-Q4_K_M.gguf",
-      "format": "gguf",
+      "downloadUrl": "https://github.com/Fabrizio1990/local_models/releases/download/v3.1.0-models/gemma-4-E4B-it-int4.part1.litertlm",
+      "fileName": "gemma-4-E4B-it-int4.litertlm",
+      "format": "litertlm",
       "isMultiPart": true,
       "parts": [
-        "google_gemma-4-E4B-it-Q4_K_M.part1.gguf",
-        "google_gemma-4-E4B-it-Q4_K_M.part2.gguf",
-        "google_gemma-4-E4B-it-Q4_K_M.part3.gguf"
+        "gemma-4-E4B-it-int4.part1.litertlm",
+        "gemma-4-E4B-it-int4.part2.litertlm"
       ],
       "supportsVision": true,
       "supportsThinking": true,
